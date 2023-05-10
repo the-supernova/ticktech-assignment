@@ -37,7 +37,7 @@ For running multiple instances:
 npm run start:multi
 ```
 
-Now you can access the API at `http://localhost:4000`
+Now you can access the API at `http://localhost:4000/api/users`
 
 ### 4. Run the tests
 
@@ -78,7 +78,7 @@ Status: 201 Created
 ### 2. Get a user by id
 
 ```
-GET /users/:id
+GET /api/users/:id
 ```
 
 #### Response
@@ -96,7 +96,7 @@ Status: 200 OK
 ### 3. Update a user by id
 
 ```
-PUT /users/:id
+PUT /api/users/:id
 ```
 
 #### Request Body
@@ -124,7 +124,7 @@ Status: 200 OK
 ### 4. Delete a user by id
 
 ```
-DELETE /users/:id
+DELETE /api/users/:id
 ```
 
 #### Response
@@ -136,7 +136,7 @@ Status: 204 No Content
 ### 5. Get all users
 
 ```
-GET /users
+GET /api/users
 ```
 
 #### Response
@@ -158,4 +158,3 @@ Status: 200 OK
     }
 ]
 ```
-
